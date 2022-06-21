@@ -12,7 +12,5 @@ contract Lemmy_register{
     registred_count += 1;
     isRegistred[msg.sender] = true;
   }
-  function ifRegistred(address addr) public view returns(bool){
-    return isRegistred[addr];
-  }
+
 }
