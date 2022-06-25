@@ -7,7 +7,7 @@ contract Lemmy_register {
     uint256 public registred_count;
     mapping(address => bool) public isRegistred;
 
-    /// @dev Adds caller address into the register
+    /// @dev Adds caller address to the register
     function register_address() public {
         require(
             bool(isRegistred[msg.sender]) == false,
