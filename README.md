@@ -1,8 +1,6 @@
 # lemmy_register
 
- A simple address register
-
-
+ A simple address register.
 
 ## Deployments:
 
